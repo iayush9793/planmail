@@ -1,7 +1,7 @@
 import { Resend } from 'resend';
 
 // Uses your Resend API key from the environment variable (or fallback)
-const resend = new Resend(process.env.RESEND_API_KEY || 're_LQia8CZb_HXHJ1Ab1k7KBqB592jX1wUkp');
+const resend = new Resend(process.env.RESEND_API_KEY || 're_gwjvQuAW_EtVLdZWUXuvWdAfZundcpJPu');
 
 export default async function handler(req, res) {
   // Only accept POST requests
